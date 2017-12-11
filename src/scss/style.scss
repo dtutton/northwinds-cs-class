@@ -4,61 +4,55 @@
 // In a custom variables file, before or after.
 // $theme-colors: (
 //   "primary":#F9F901,
-//   "theme-4":#BD145D,
+//   "theme-2":#BD145D,
 //   "theme-3": #71C337,
 //   "secondary": #294E0E,
-//   "theme-5": #EEEEA5
+//   "light": #EEEEA5
+//   );
+
+// $theme-colors: (
+//   "primary":#448d76,
+//   "theme-2":#ae0d7a,
+//   "theme-3": #fcba12,
+//   "secondary": #340926,
+//   "light": #a2f3d9
 //   );
 
 $theme-colors: (
-  "primary":#448d76,
-  "theme-4":#ae0d7a,
-  "theme-3": #fcba12,
-  "secondary": #340926,
-  "theme-5": #a2f3d9
+  "primary":#4424D6,
+  "theme-2":#ae0d7a,
+  "theme-3": #347B98,
+  "secondary": #110934,
+  "light": #D4EDF7
   );
-
-// $theme-colors: (
-//   "primary":#4424D6,
-//   "theme-4":#ae0d7a,
-//   "theme-3": #347B98,
-//   "secondary": #110934,
-//   "theme-5": #D4EDF7
-//   );
-
-  
-
-$jumbotron-bg: map-get($theme-colors, "theme-color-3");
-
-
 
 .jumbotron-1 {
   background-color: map-get($theme-colors, "primary") !important;
   color:  map-get($theme-colors, "secondary") !important;
   margin-bottom: 0px !important;
   .btn-secondary{
-    background-color: map-get($theme-colors, "theme-3") !important;
-    color: map-get($theme-colors, "theme-5") !important
+    background-color: map-get($theme-colors, "theme-2") !important;
+    color: map-get($theme-colors, "light") !important
   }
 }
 
 .jumbotron-2 {
-  background-color: map-get($theme-colors, "theme-3") !important;
+  background-color: map-get($theme-colors, "theme-2") !important;
   color:  map-get($theme-colors, "secondary") !important;
   margin-bottom: 0px !important;
   .btn-secondary{
-    background-color: map-get($theme-colors, "theme-4") !important;
-    color: map-get($theme-colors, "theme-5") !important
+    background-color: map-get($theme-colors, "theme-3") !important;
+    color: map-get($theme-colors, "light") !important
   }
 }
 
 .jumbotron-3 {
-  background-color: map-get($theme-colors, "theme-4") !important;
+  background-color: map-get($theme-colors, "theme-3") !important;
   color:  map-get($theme-colors, "secondary") !important;
   margin-bottom: 0px !important;
   .btn-secondary{
     background-color: map-get($theme-colors, "primary") !important;
-    color: map-get($theme-colors, "theme-5") !important
+    color: map-get($theme-colors, "light") !important
   }
 }
 
